@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+}
+
+header {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

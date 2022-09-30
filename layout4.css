@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "nav header" "nav main" "nav footer"
+}
+
+header {
+    grid-area: header;
+    background-color: indigo;
+    display: grid;
+    font-size: 2rem;
+    align-items: center;
+    place-items: center;
+}
+
+NAV {
+    background-color: rgb(45, 82, 7);
+    display: grid;
+    grid-area: nav;
+    align-items: center;
+    place-items: center;
+    font-size: 2rem;
+}
+
+main {
+    background-color: rgb(71, 10, 10);
+    display: grid;
+    font-size: 2rem;
+    grid-area: main;
+    grid-template-areas: "ARTICLE ASIDE";
+    grid-template-columns: 1fr 200px;
+}
+
+ARTICLE {
+    display: grid;
+    font-size: 2rem;
+    grid-area: ARTICLE;
+    background-color: maroon;
+    align-items: center;
+    place-items: center;
+}
+
+ASIDE {
+    display: grid;
+    font-size: 2rem;
+    grid-area: ASIDE;
+    align-items: center;
+    place-items: center;
+}
+
+footer {
+    background-color: darkblue;
+    display: grid;
+    font-size: 2rem;
+    grid-area: footer;
+    align-items: center;
+    place-items: center;
+}

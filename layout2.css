@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+}
+
+header {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+main {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.NAV {
+    background-color: chocolate;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ARTICLE {
+    background-color: cadetblue;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ASIDE {
+    background-color: chartreuse;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 1fr 10%;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "nav header" "nav main" "nav footer"
+}
+
+header {
+    grid-area: header;
+    background-color: indigo;
+    display: grid;
+    font-size: 2rem;
+    align-items: center;
+    place-items: center;
+}
+
+NAV {
+    background-color: lawngreen;
+    display: grid;
+    grid-area: nav;
+    align-items: center;
+    place-items: center;
+    font-size: 2rem;
+}
+
+main {
+    background-color: dimgrey;
+    display: grid;
+    font-size: 2rem;
+    grid-area: main;
+    align-items: center;
+    place-items: center;
+}
+
+footer {
+    background-color: darkblue;
+    display: grid;
+    font-size: 2rem;
+    grid-area: footer;
+    align-items: center;
+    place-items: center;
+}
